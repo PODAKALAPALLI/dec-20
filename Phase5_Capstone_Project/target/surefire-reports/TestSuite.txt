@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 109.475 s <<< FAILURE! - in TestSuite
+test.SignUpPageTest.signupTest[abcd@gmail.com, ABCdefg1234##, Anusha, Thatipamula, 22, Bangalore](1)  Time elapsed: 35.393 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login/Signup' (tried for 30 second(s) with 500 milliseconds interval)
+	at test.SignUpPageTest.signupTest(SignUpPageTest.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Login/Signup"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-172-31-87-20', ip: '172.31.87.20', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1113-aws', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.Wq7kUK}, goog:chromeOptions: {debuggerAddress: localhost:42160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 75f206ac65c208309a385df35fc3c5ea
+*** Element info: {Using=link text, value=Login/Signup}
+	at test.SignUpPageTest.signupTest(SignUpPageTest.java:20)
+
+test.LoginPageTest.LoginTest[abcd@gmail.com, ABCdefg1234##](1)  Time elapsed: 35.343 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login/Signup' (tried for 30 second(s) with 500 milliseconds interval)
+	at test.LoginPageTest.LoginTest(LoginPageTest.java:18)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Login/Signup"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-172-31-87-20', ip: '172.31.87.20', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1113-aws', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.uNgDXp}, goog:chromeOptions: {debuggerAddress: localhost:37235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0618682696c6400569d69f875caa0465
+*** Element info: {Using=link text, value=Login/Signup}
+	at test.LoginPageTest.LoginTest(LoginPageTest.java:18)
+
+test.AfterLoginTest.afterLogin[abcd@gmail.com, ABCdefg1234##](1)  Time elapsed: 35.338 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Home' (tried for 30 second(s) with 500 milliseconds interval)
+	at test.AfterLoginTest.afterLogin(AfterLoginTest.java:19)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Home"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ip-172-31-87-20', ip: '172.31.87.20', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1113-aws', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.f5tNsg}, goog:chromeOptions: {debuggerAddress: localhost:38985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 78e2cf91103b0031274515458b47bde4
+*** Element info: {Using=link text, value=Home}
+	at test.AfterLoginTest.afterLogin(AfterLoginTest.java:19)
+
